@@ -1,9 +1,10 @@
 import React from 'react'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+
 function ItalianFood({chefName,dishName}) {
+
     return (
         <>
-       
                 <div class="mt-5 card ms-2" style={{ width: '19rem' }}>
                     <img src="https://source.unsplash.com//1600x900/?mexicanfood" class="card-img-top" alt="..." />
                     <img style={{ marginTop: '-30px' }} height="70" width="70" src="https://source.unsplash.com//1600x900/?user" class="ms-2 border border-3 border-light rounded-circle" alt="..." />
@@ -19,7 +20,6 @@ function ItalianFood({chefName,dishName}) {
                     </div>
                 </div>
 
-           
         </>
     )
 }

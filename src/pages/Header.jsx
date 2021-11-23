@@ -17,7 +17,7 @@ function Header({ cusinList }) {
             </div>
 
             <div className="container-fluid bg-light  pt-5">
-                <div  className="container d-flex justify-content-around">
+                <div className="container d-flex justify-content-around">
 
                     {
                         cusinList.map((ele) => (
@@ -28,10 +28,6 @@ function Header({ cusinList }) {
                         ))
 
                     }
-
-
-
-                   
 
                 </div>
             </div>

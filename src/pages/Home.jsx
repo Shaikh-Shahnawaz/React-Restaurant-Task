@@ -9,12 +9,9 @@ import ItalianFood from '../components/ItalianFood'
 import Footer from './Footer'
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
+
+
 function Home() {
-
-    const [loaded, setLoaded] = useState(false)
-
-
-
 
     const [cusinList, setCusinList] = useState([])
     const [weekFood, setWeekFood] = useState([])
@@ -145,15 +142,6 @@ function Home() {
                 </div>
 
             </div>
-
-
-
-
-
-
-
-
-
 
             {/* --------------------Footer here-------------------- */}
             <Footer />
